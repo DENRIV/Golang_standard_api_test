@@ -36,7 +36,7 @@ go: found github.com/gorilla/mux in github.com/gorilla/mux v1.8.0
 
 go run main.go
 
-  localhost:8080 
+  localhost:8081
   
   
 -> main.go
@@ -84,7 +84,17 @@ PASS
 
 ok      github.com/eminetto/post-apitest        0.693s
   
-CLUSION :
+  
+[browser]
+
+http://localhost:8081/v1/bookmark/1
+
+http://localhost:8081/v1/bookmark/2
+
+http://localhost:8081/v1/bookmark
+  
+  
+CONLUSION :
 
  test our API using only the standard library
  
